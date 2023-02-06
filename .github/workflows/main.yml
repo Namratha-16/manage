@@ -43,7 +43,7 @@ jobs:
           repository: Namratha-16/manage
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
           #token: ${{ secrets.BG_POLARIS }}
-          path: tata-project
+          path: manage
 
       - name: Install libdbuswrapper
         run: |
